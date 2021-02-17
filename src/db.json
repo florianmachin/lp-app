@@ -1,11 +1,9 @@
 {
-  "students": [
-      {
-          "id": 0,
-          "firstName": "",
-          "lastName": "",
-          "birthYear": 0000,
-          "class": "LP-DIM-XXX"
-      }
-  ]
+  "students": [{
+      "id": 0,
+      "firstName": "",
+      "lastName": "",
+      "birthYear": 0,
+      "class": "LP-DIM-XXX"
+  }]
 }
