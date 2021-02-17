@@ -13,13 +13,13 @@ export class StudentComponent implements OnInit {
 
   students$: Observable<Student[]>;
 
-  constructor(private _studentService: StudentService) {
+  constructor() {
 
    }
 
   ngOnInit(): void {
 
-    this.students$ = this._studentService.get();
+
 
   }
 
