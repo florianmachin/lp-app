@@ -1,4 +1,3 @@
-import { importType } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Student } from '../core/models/student';
@@ -11,17 +10,9 @@ import { StudentService } from '../core/services/http/student.service';
 })
 export class StudentComponent implements OnInit {
 
-  students$: Observable<Student[]>;
-
-  constructor() {
-
-   }
+  constructor() { }
 
   ngOnInit(): void {
-
-
-
   }
-
 
 }

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from '../shared/components/not-found/not-found.component';
+import { NotFoundComponent } from '../shared/not-found/not-found.component';
+import { StudentFormComponent } from './pages/student-form/student-form.component';
 import { StudentListComponent } from './pages/student-list/student-list.component';
 import { StudentComponent } from './student.component';
 
@@ -17,6 +18,10 @@ const routes: Routes = [
       {
         path: 'students',
         component: StudentListComponent
+      },
+      {
+        path: 'students-form',
+        component: StudentFormComponent,
       },
       {
         path: '**',
