@@ -24,6 +24,6 @@ export class StudentService {
     return this._httpClient.delete<void>(`${this.endpoint}/${id}`);
   }
   update(student: Student): Observable<Student> {
-    return this._httpClient.put<Student>(this.endpoint, student);
+    return this._httpClient.put<Student>(`${this.endpoint}/${id}`, student);
   }
 }

@@ -1,0 +1,21 @@
+[debug] [2021-03-10T14:08:36.477Z] ----------------------------------------------------------------------
+[debug] [2021-03-10T14:08:36.479Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tiflo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-10T14:08:36.479Z] CLI Version:   9.6.0
+[debug] [2021-03-10T14:08:36.479Z] Platform:      win32
+[debug] [2021-03-10T14:08:36.479Z] Node Version:  v15.11.0
+[debug] [2021-03-10T14:08:36.480Z] Time:          Wed Mar 10 2021 15:08:36 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2021-03-10T14:08:36.480Z] ----------------------------------------------------------------------
+[debug] [2021-03-10T14:08:36.480Z] 
+[debug] [2021-03-10T14:08:36.485Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-10T14:08:36.485Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\FAC-backup\LP DIM\Angular\lp-app
+

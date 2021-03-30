@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "lp-app-b58a9": {
+      "hosting": {
+        "lp-app": [
+          "lp-app-b58a9"
+        ]
+      }
+    }
+  }
+}
